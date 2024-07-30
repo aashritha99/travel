@@ -27,3 +27,14 @@ html::-webkit-scrollbar-track{
 section{
     padding:50px 100px;
 }
+header{
+    position: fixed;
+    width:100%;
+    top:0;
+    z-index: 1000;
+    display:flex;
+    align-items: centre;
+    justify-content: space-between;
+    padding:20px 100px;
+    transition: 0.5s;
+}
