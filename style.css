@@ -72,6 +72,9 @@ header{
     pointer-events: none;
 }
 
-.navbar a:hover::after {
+.navbar a:hover::after,
+.navbar .home-active::after{
     opacity: 1;
 }
+
+    
