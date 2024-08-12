@@ -70,8 +70,15 @@ header{
     transition: all 0.5s;
 }
 
-.navbar a:hover::after{
+.navbar a:hover::after,
+.navbar .home-active::after {
 width:100%;
+}
+#menu-icon{
+    font-size:25px;
+    cursor:pointer;
+    z-index:10000;
+    display:none;
 }
 
     
