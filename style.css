@@ -61,20 +61,17 @@ header{
 }
 .navbar a::after {
     content: '';
-    width: 100%;
+    width: 0;
     height: 15%;
     background: var(--bf-color);
     position: absolute;
     bottom: -5px;
-    right: 0px;
-    opacity: 0;
+    left:0;
     transition: all 0.5s;
-    pointer-events: none;
 }
 
-.navbar a:hover::after,
-.navbar .home-active::after{
-    opacity: 1;
+.navbar a:hover::after{
+width:100%;
 }
 
     
