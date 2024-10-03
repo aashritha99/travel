@@ -102,7 +102,14 @@ width:100%;
     background: var(--bf-color) !important; 
 }
 .home-text{
-    z-index: 7899393;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  z-index: 10; /* Ensure text is above the image */
     padding: 100px 0;
 }
 .home-text span{
