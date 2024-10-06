@@ -140,3 +140,21 @@ width:100%;
     text-transform: capitalize;
     color:var(--text-color);
 }
+.places-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px,auto));
+    gap:1.5rem;
+    justify-content: center;
+    margin-top:2rem;
+}
+.places-container .box{
+    position: relative;
+}
+.place-img{
+    width: 400px;;
+    height:100%;
+}
+.place-img img{
+    width:100%;
+    height:100%
+}
