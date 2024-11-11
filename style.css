@@ -187,3 +187,11 @@ transition:1s;
     background: #01151d;
     
 }
+.video-container{
+    display:grid;
+    place-items:center;
+    margin-top:2rem;
+}
+.video-container Video{
+    width:950px;
+}
