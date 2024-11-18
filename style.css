@@ -40,6 +40,19 @@ header{
     transition: 0.5s;
     background-color:none;
 }
+header.shadow{
+    background:white;
+    box-shadow: 0 0 4px rgb(0 0 0/ 50%);
+}
+header.shadow.logo{
+    background:black
+}
+header.shadow .navbar a{
+    color:black
+}
+header.shadow .navbar a::after{
+    color:black
+}
 .logo{
     font-size:1rem;
     font-weight: 600;
@@ -194,4 +207,8 @@ transition:1s;
 }
 .video-container Video{
     width:950px;
+}
+.about{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px,auto)); ;
 }
